@@ -129,6 +129,40 @@ moved the result from 24/100 to 22/95 and took `push` from 2 mismatches to zero.
 - Whether npm *should* verify that the attested tree matches the release is a design
   argument, not a measurement. Its documented behaviour is to check that the commit exists.
 
+## A failure mode this cannot see
+
+`no-provenance` — 196 of the 298 — is the bucket for a package whose `latest` carries no
+attestation at the registry. The script cannot tell *why*. One reason is that the project
+never configured provenance. Another is that it did, the statement was signed, and the
+publish died before the registry recorded it.
+
+The second happened to a package of mine, `llm-stream-guardrails@0.7.1`, and the run log
+has both halves in four lines:
+
+```
+npm notice publish Signed provenance statement with source and build information from GitHub Actions
+npm notice publish Provenance statement published to transparency log: https://search.sigstore.dev/?logIndex=2907065549
+npm error code EOTP
+npm error This operation requires a one-time password from your authenticator.
+```
+
+That statement is in Sigstore's public log, integrated 2026-09-21T21:34:12Z. The publish
+then failed on the 2FA prompt, and the version reached npm 27 minutes later from a laptop:
+`_npmUser` is the account, on npm 10.8.2, where 0.7.2 and every version after it carry
+`_npmUser: GitHub Actions` with a `trustedPublisher` block. `dist.attestations` is absent on
+0.7.1 and present on all seven that follow.
+
+So the registry has no attestation, the transparency log has one, and nothing reconciles the
+two. This sweep reads the registry, so that version lands in `no-provenance` beside packages
+that never tried — the mirror image of what the table measures. There, an attestation names a
+commit that does not hold the release. Here it was signed for the commit CI built from — the
+run's head was `04b794e`, which is where the `v0.7.1` tag points — and never arrived. I did
+not read the statement's own subject: Rekor returned the entry for that index as `intoto/0.0.2`
+without an inspectable payload, so the commit is the run's, not the statement's.
+
+How many of the 196 are this rather than the ordinary kind is not a question the registry can
+answer. It would mean reading the transparency log instead, which is a different measurement.
+
 ## Prior art
 
 The mechanism was already understood. [`opensoma/opensoma#137`](https://github.com/opensoma/opensoma/issues/137)
