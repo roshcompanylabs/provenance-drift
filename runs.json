@@ -1,0 +1,14 @@
+[
+  {
+    "file": "rows.json",
+    "recorded": "2026-10-07",
+    "rows": 298,
+    "sha256": "bfa5487dcd5ff6b559e85481515d8316d64225aa65702f3bec4000d1b93a2f0b"
+  },
+  {
+    "file": "rows-2026-10-14.json",
+    "recorded": "2026-10-14",
+    "rows": 298,
+    "sha256": "2a2c56eb850202351abca6ab412679ce0a31bf455562232fad96059dcebb57f9"
+  }
+]
