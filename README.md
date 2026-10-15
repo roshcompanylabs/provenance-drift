@@ -55,6 +55,71 @@ this is the case the control section below exists to reject — `attack.cjs` wou
 `NO TAG FOUND` and refuse it. It belongs here as what it is: an illustration of where a
 `workflow_run` build's `GITHUB_SHA` points, not an instance of the thing being counted.
 
+## Two of those events are ones the build type forbids
+
+Every attestation in this frame carries the same build type:
+
+```
+  buildType  https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1
+```
+
+That build type names the events it covers, and there are four of them:
+
+```
+  create              Creation of a git tag or branch.
+  release             Creation or update of a GitHub release.
+  push                Creation or update of a git tag or branch.
+  workflow_dispatch   Manual trigger of a workflow.
+```
+
+Then, verbatim:
+
+> This build type MUST NOT be used for any other event type unless this specification is
+> first updated. This ensures that the external parameters are fully captured and that the
+> semantics are unambiguous.
+
+`schedule` and `workflow_run` are not on the list. npm stamps the build type on them anyway:
+
+```
+  @typescript-eslint/parser@8.71.2    event=schedule        buildType workflow/v1
+  @typescript-eslint/types@8.71.2     event=schedule        buildType workflow/v1
+  node-releases@2.0.58                event=schedule        buildType workflow/v1
+  caniuse-lite@1.0.30001816           event=workflow_run    buildType workflow/v1
+```
+
+(All four as of the 14 October table. `caniuse-lite` was 1.0.30001815 a week earlier, on the
+same trigger and equally correct.)
+
+In the frame, both weeks: **9 of the attestations whose tree could be read were produced by an
+event the build type excludes** — 8 `schedule` and 1 `workflow_run` — and **8 of those 9 name a
+commit whose tree does not hold the published version.** Seven are `@typescript-eslint/*` and
+one is `node-releases`. The ninth, `caniuse-lite`, is correct, because that project commits its
+version bump to the default branch before the publish is triggered.
+
+This is a different kind of claim from the rest of this repository, and a narrower one. The
+trigger split is a measurement: it says what happens. This says that for two of those events,
+what happens was ruled out in advance by the specification the attestation cites, and nothing
+rejected it. Reproduce it in one command:
+
+```bash
+curl -s https://registry.npmjs.org/-/npm/v1/attestations/@typescript-eslint/parser@8.71.2 \
+  | node -e 'const d = JSON.parse(require("fs").readFileSync(0, "utf8"));
+      for (const a of d.attestations) {
+        const p = JSON.parse(Buffer.from(a.bundle.dsseEnvelope.payload, "base64").toString("utf8"));
+        const b = p.predicate && p.predicate.buildDefinition;
+        if (b) console.log(b.buildType, b.internalParameters.github.event_name);
+      }'
+#   https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1 schedule
+```
+
+(The endpoint returns two attestations — npm's own publish attestation first, then the SLSA
+provenance — so the loop is there to pick the one with a `buildDefinition` rather than
+assuming an index. The first version of this command in this file assumed index 0 and threw.)
+
+Not a security claim, for the same reason as everything else here: the signature is valid and
+the tarball is what the project built. It is a claim about whether the statement means what its
+own build type says it means.
+
 ## Measured again a week later
 
 A single run cannot say whether this is a snapshot nobody has released past or a property
@@ -262,7 +327,18 @@ mismatches to zero.
 - Two release trains account for 21 of the 22, and for 21 of the 23 a week later. By project
   it is about four, not twenty-two.
 - Whether npm *should* verify that the attested tree matches the release is a design
-  argument, not a measurement. Its documented behaviour is to check that the commit exists.
+  argument, not a measurement. Its documented behaviour is to check that the commit
+  **exists**: [viewing a package's
+  provenance](https://docs.npmjs.com/viewing-package-provenance) says "the linked source
+  commit and repository are checked by npm", and that an error appears if either "cannot be
+  found", because "the provenance for this package can no longer be established". That check
+  passes for all 23 rows here: the commits exist. It is the next question that is not asked.
+  `npm audit signatures` does read part of the statement, and you can see exactly which part.
+  In `pacote`'s `lib/registry.js` it takes `statement.subject[0]` and throws
+  `EATTESTATIONSUBJECT` if the subject name is not the package's PURL — "package name and
+  version (PURL) … doesn't match what was signed" — and again if the subject digest is not the
+  tarball's. So the published `name@version` is checked against the statement. `gitCommit`,
+  `resolvedDependencies` and `buildDefinition` do not appear in that file at all.
 
 ## A failure mode this cannot see
 
@@ -300,13 +376,27 @@ answer. It would mean reading the transparency log instead, which is a different
 
 ## Prior art
 
-The mechanism was already understood. [`opensoma/opensoma#137`](https://github.com/opensoma/opensoma/issues/137)
-(2026-09-21, still open) describes it and the one-line fix. Solarin, Kalu, Davis & Amusuo,
+The mechanism was already understood, and the oldest record of it is in the build type's own
+issue tracker. [`slsa-framework/github-actions-buildtypes#3`](https://github.com/slsa-framework/github-actions-buildtypes/issues/3),
+*Support schedule events*, opened by ianlewis on **2 June 2023** and **still open**, asks why
+`schedule` was left out of the supported events. Mark Lodato's reply suspects it was to avoid
+exactly this ambiguity — that for such events `GITHUB_SHA` and `GITHUB_REF` are set to the
+default branch while the build may check out something else — and says he has no objection to
+adding support. Nobody decided. Three and a half years later npm is stamping that build type
+on those events anyway, which is the section above.
+
+That is a suspicion about a rationale, not a documented reason, and it was raised in the course
+of writing tests rather than from a user report: ianlewis says "I just ran into this as part of
+tests, so there isn't an end user need for this yet."
+
+[`opensoma/opensoma#137`](https://github.com/opensoma/opensoma/issues/137) (2026-09-21, still
+open) describes the mechanism for a single project. Solarin, Kalu, Davis & Amusuo,
 [*Reproducibility is Not Enough*](https://arxiv.org/abs/2608.18180) (arXiv:2608.18180,
 2026-08-18) study artifact verifiability across four ecosystems and report that recovering
 the source commit is the dominant obstacle.
 
-What is new here is how often it happens and what predicts it.
+What is new here is how often it happens, what predicts it, and that the build type is being
+applied where its own specification forbids it.
 
 ## Licence
 
