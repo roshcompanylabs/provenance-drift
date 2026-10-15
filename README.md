@@ -90,16 +90,31 @@ Then, verbatim:
 (All four as of the 14 October table. `caniuse-lite` was 1.0.30001815 a week earlier, on the
 same trigger and equally correct.)
 
-In the frame, both weeks: **9 of the attestations whose tree could be read were produced by an
-event the build type excludes** — 8 `schedule` and 1 `workflow_run` — and **8 of those 9 name a
-commit whose tree does not hold the published version.** Seven are `@typescript-eslint/*` and
-one is `node-releases`. The ninth, `caniuse-lite`, is correct, because that project commits its
-version bump to the default branch before the publish is triggered.
+In the frame, both weeks, 9 of the attestations whose tree could be read were produced by an
+event the build type excludes — 8 `schedule` and 1 `workflow_run`. That is 9 rows but **three
+projects**: seven of the nine are `@typescript-eslint/*` packages from a single run sharing a
+single commit.
 
-This is a different kind of claim from the rest of this repository, and a narrower one. The
-trigger split is a measurement: it says what happens. This says that for two of those events,
-what happens was ruled out in advance by the specification the attestation cites, and nothing
-rejected it. Reproduce it in one command:
+**And this does not explain the drift. It is a separate claim, and the measurement above says
+so.** Of the 23 mismatches on 14 October, **15 are `workflow_dispatch`, which the build type
+does support** — so most of the drift happens on an event that is squarely in scope.
+Meanwhile `caniuse-lite` is on `workflow_run`, which is excluded, and its attested tree holds
+the published version. The cause of the drift is committing the version bump during the run,
+which has nothing to do with which event started it.
+
+So there are two findings here and they should not be confused:
+
+```
+  the measurement          an attested commit often does not hold the released version,
+                           and what predicts it is whether the trigger froze GITHUB_SHA
+                           before the bump was committed
+
+  the conformance claim    for two of these events, the statement cites a build type whose
+                           specification says it MUST NOT be used for them — regardless of
+                           whether the commit happens to be right
+```
+
+Reproduce the second in one command:
 
 ```bash
 curl -s https://registry.npmjs.org/-/npm/v1/attestations/@typescript-eslint/parser@8.71.2 \
@@ -377,17 +392,27 @@ answer. It would mean reading the transparency log instead, which is a different
 ## Prior art
 
 The mechanism was already understood, and the oldest record of it is in the build type's own
-issue tracker. [`slsa-framework/github-actions-buildtypes#3`](https://github.com/slsa-framework/github-actions-buildtypes/issues/3),
+issue tracker — where **both of its maintainers considered the concern this repository measures
+and dismissed it, correctly.**
+[`slsa-framework/github-actions-buildtypes#3`](https://github.com/slsa-framework/github-actions-buildtypes/issues/3),
 *Support schedule events*, opened by ianlewis on **2 June 2023** and **still open**, asks why
-`schedule` was left out of the supported events. Mark Lodato's reply suspects it was to avoid
-exactly this ambiguity — that for such events `GITHUB_SHA` and `GITHUB_REF` are set to the
-default branch while the build may check out something else — and says he has no objection to
-adding support. Nobody decided. Three and a half years later npm is stamping that build type
-on those events anyway, which is the section above.
+`schedule` was left out. Mark Lodato replies that he suspects it was "to avoid any ambiguity
+about which specific version was built", since `GITHUB_SHA` and `GITHUB_REF` are set to the
+default branch while builds "check out arbitrary branches" — and then, in the next sentence,
+takes it back: **"Then again, it's possible to do that for the other events too."** He adds
+that "the semantics are reasonably clear" and that he has no objection to adding `schedule`.
+ianlewis agrees: **"from a technical perspective this is the same as how all other events
+work."**
 
-That is a suspicion about a rationale, not a documented reason, and it was raised in the course
-of writing tests rather than from a user report: ianlewis says "I just ran into this as part of
-tests, so there isn't an end user need for this yet."
+Quoting only Lodato's first sentence would make him the author of this finding. He is not. He
+raised it, discounted it in the same breath, and he was right to: 15 of the 23 mismatches here
+are on `workflow_dispatch`, an event the specification supports. The drift is not
+event-specific, which is exactly what both of them said in 2023. What is left of the
+conformance point is narrower and is stated as such above.
+
+Two comments, both on the same day, and nobody decided. It was raised while writing tests
+rather than from a user report: "I just ran into this as part of tests, so there isn't an end
+user need for this yet."
 
 [`opensoma/opensoma#137`](https://github.com/opensoma/opensoma/issues/137) (2026-09-21, still
 open) describes the mechanism for a single project. Solarin, Kalu, Davis & Amusuo,
