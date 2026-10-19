@@ -1,0 +1,2764 @@
+[
+  {
+    "name": "@babel/code-frame",
+    "version": "8.0.6",
+    "repo": "babel/babel",
+    "commit": "68b6a2ab39696752e008ef9a186f444d6f80c262",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/compat-data",
+    "version": "8.0.5",
+    "repo": "babel/babel",
+    "commit": "388e6c8623a3c04bc6d46c210cde9ed6780e638f",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/core",
+    "version": "8.0.7",
+    "repo": "babel/babel",
+    "commit": "c2e6b0701a09805b7f084fd01b088840e336dc99",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/generator",
+    "version": "8.0.6",
+    "repo": "babel/babel",
+    "commit": "68b6a2ab39696752e008ef9a186f444d6f80c262",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/helper-compilation-targets",
+    "version": "8.0.7",
+    "repo": "babel/babel",
+    "commit": "c2e6b0701a09805b7f084fd01b088840e336dc99",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/helper-globals",
+    "version": "8.0.6",
+    "repo": "babel/babel",
+    "commit": "68b6a2ab39696752e008ef9a186f444d6f80c262",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/helper-string-parser",
+    "version": "8.0.6",
+    "repo": "babel/babel",
+    "commit": "68b6a2ab39696752e008ef9a186f444d6f80c262",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/helper-validator-identifier",
+    "version": "8.0.6",
+    "repo": "babel/babel",
+    "commit": "68b6a2ab39696752e008ef9a186f444d6f80c262",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/helper-validator-option",
+    "version": "8.0.0",
+    "repo": "babel/babel",
+    "commit": "b71c35ab79ccc3945cf1eb2c47efa0f227e2cc44",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/helpers",
+    "version": "8.0.7",
+    "repo": "babel/babel",
+    "commit": "c2e6b0701a09805b7f084fd01b088840e336dc99",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/parser",
+    "version": "8.0.7",
+    "repo": "babel/babel",
+    "commit": "c2e6b0701a09805b7f084fd01b088840e336dc99",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/template",
+    "version": "8.0.0",
+    "repo": "babel/babel",
+    "commit": "b71c35ab79ccc3945cf1eb2c47efa0f227e2cc44",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/traverse",
+    "version": "8.0.7",
+    "repo": "babel/babel",
+    "commit": "c2e6b0701a09805b7f084fd01b088840e336dc99",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@babel/types",
+    "version": "8.0.6",
+    "repo": "babel/babel",
+    "commit": "68b6a2ab39696752e008ef9a186f444d6f80c262",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "yarn-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint-community/eslint-utils",
+    "version": "4.10.1",
+    "repo": "eslint-community/eslint-utils",
+    "commit": "f16575f3ab9dbfa60854c2706bf71621aa02d56f",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/ci.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint-community/regexpp",
+    "version": "4.12.2",
+    "repo": "eslint-community/regexpp",
+    "commit": "11f93e01a21638fc2b95dfcd750ff1385ed9c5f1",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/ci.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint/config-array",
+    "version": "0.23.5",
+    "repo": "eslint/rewrite",
+    "commit": "d2dbf7b73d01505da89a69b7465e486d8a88aa8f",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint/config-helpers",
+    "version": "0.7.0",
+    "repo": "eslint/rewrite",
+    "commit": "e427207b50d8d846e50fabf7a9747f66ec4b86c1",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint/core",
+    "version": "1.2.1",
+    "repo": "eslint/rewrite",
+    "commit": "d2dbf7b73d01505da89a69b7465e486d8a88aa8f",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint/object-schema",
+    "version": "3.0.5",
+    "repo": "eslint/rewrite",
+    "commit": "d2dbf7b73d01505da89a69b7465e486d8a88aa8f",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@eslint/plugin-kit",
+    "version": "0.7.3",
+    "repo": "eslint/rewrite",
+    "commit": "a4466ca3f8dc7d6817c4dd91c10a989b83ecb30d",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "@humanfs/core",
+    "version": "0.20.0",
+    "repo": "humanwhocodes/humanfs",
+    "commit": "0d5dfacb91c7cebe31d9d4494fed271466327498",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@humanfs/node",
+    "version": "0.17.0",
+    "repo": "humanwhocodes/humanfs",
+    "commit": "0d5dfacb91c7cebe31d9d4494fed271466327498",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@humanfs/types",
+    "version": "0.16.0",
+    "repo": "humanwhocodes/humanfs",
+    "commit": "0d5dfacb91c7cebe31d9d4494fed271466327498",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@humanwhocodes/module-importer",
+    "version": "1.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@humanwhocodes/retry",
+    "version": "0.4.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/console",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/core",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/pattern",
+    "version": "30.5.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/reporters",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/schemas",
+    "version": "30.5.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/test-result",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/transform",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jest/types",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jridgewell/gen-mapping",
+    "version": "0.3.13",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jridgewell/sourcemap-codec",
+    "version": "1.6.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@jridgewell/trace-mapping",
+    "version": "0.3.31",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@next/env",
+    "version": "16.4.2",
+    "repo": "vercel/next.js",
+    "commit": "2864b1772c37242a9b40ab4d366eb7d368c2a070",
+    "event": "push",
+    "workflowRef": "refs/tags/v16.4.2",
+    "workflowPath": ".github/workflows/build_and_deploy.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "pnpm-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.155.0",
+    "repo": "oxc-project/oxc",
+    "commit": "73e6b564737a29ecebf428d276421dcc492836df",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release_types.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "repo": "rolldown/plugins",
+    "commit": "791e95ee2fb75a843e6efe18ebf549da4ed43abf",
+    "event": "push",
+    "workflowRef": "refs/tags/pluginutils@1.0.1",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "pnpm-install",
+    "status": "provenance"
+  },
+  {
+    "name": "@swc/helpers",
+    "version": "0.5.23",
+    "repo": "swc-project/swc",
+    "commit": "568b0b490d00e60c5a93e315648d1fb954e9c761",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish-misc-packages.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@types/chai",
+    "version": "5.2.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/deep-eql",
+    "version": "4.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/esrecurse",
+    "version": "4.3.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/estree",
+    "version": "1.0.9",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/gensync",
+    "version": "1.0.5",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/istanbul-lib-coverage",
+    "version": "2.0.6",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/istanbul-reports",
+    "version": "3.0.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/jsesc",
+    "version": "3.0.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/json-schema",
+    "version": "7.0.15",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/node",
+    "version": "26.6.5",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@types/yargs",
+    "version": "17.0.35",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript-eslint/parser",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript-eslint/project-service",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript-eslint/scope-manager",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript-eslint/tsconfig-utils",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript-eslint/types",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript-eslint/typescript-estree",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript-eslint/visitor-keys",
+    "version": "8.72.0",
+    "repo": "typescript-eslint/typescript-eslint",
+    "commit": "c3aecbfa8f236dbc2435baa61f434a973866b521",
+    "event": "schedule",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "@typescript/typescript-aix-ppc64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-darwin-arm64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-darwin-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-freebsd-arm64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-freebsd-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-arm",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-arm64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-loong64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-mips64el",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-ppc64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-riscv64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-s390x",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-linux-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-netbsd-arm64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-netbsd-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-openbsd-arm64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-openbsd-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-sunos-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-win32-arm64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@typescript/typescript-win32-x64",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@vitest/mocker",
+    "version": "5.0.5",
+    "repo": "vitest-dev/vitest",
+    "commit": "7a825db43e2beca0b219d2eadaec334cb81af0c7",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vitest/spy",
+    "version": "5.0.5",
+    "repo": "vitest-dev/vitest",
+    "commit": "7a825db43e2beca0b219d2eadaec334cb81af0c7",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/compiler-core",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/compiler-dom",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/compiler-sfc",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/compiler-ssr",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/reactivity",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/runtime-core",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/runtime-dom",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/server-renderer",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@vue/shared",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "@webassemblyjs/ast",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/helper-api-error",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/helper-buffer",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/helper-numbers",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/helper-wasm-bytecode",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/helper-wasm-section",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/ieee754",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/leb128",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/utf8",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/wasm-edit",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/wasm-gen",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/wasm-opt",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/wasm-parser",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "@webassemblyjs/wast-printer",
+    "version": "1.14.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "accepts",
+    "version": "1.3.8",
+    "status": "no-provenance"
+  },
+  {
+    "name": "acorn",
+    "version": "8.19.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "acorn-jsx",
+    "version": "5.3.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "agent-base",
+    "version": "9.0.0",
+    "repo": "TooTallNate/proxy-agents",
+    "commit": "af317e080c20d64fa76f93c741026ca7eaa9a31e",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "ajv",
+    "version": "8.20.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ajv-formats",
+    "version": "3.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ajv-keywords",
+    "version": "5.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ansi-escapes",
+    "version": "7.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "assertion-error",
+    "version": "2.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "asynckit",
+    "version": "0.5.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "axios",
+    "version": "1.20.0",
+    "repo": "axios/axios",
+    "commit": "84a9f3b9a4f3244b8c8e818f557d64c7b964fb25",
+    "event": "push",
+    "workflowRef": "refs/tags/v1.20.0",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "baseline-browser-mapping",
+    "version": "2.11.30",
+    "repo": "web-platform-dx/baseline-browser-mapping",
+    "commit": "65822d68d94d62ef7259ab276bc4f5af6da3953e",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "body-parser",
+    "version": "2.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "brace-expansion",
+    "version": "5.0.12",
+    "status": "no-provenance"
+  },
+  {
+    "name": "browserslist",
+    "version": "4.29.4",
+    "repo": "browserslist/browserslist",
+    "commit": "f7a99b9da8d1e86d04f3fe821ee7ef85e8f8f4d5",
+    "event": "push",
+    "workflowRef": "refs/tags/4.29.4",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "bytes",
+    "version": "3.1.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "caniuse-lite",
+    "version": "1.0.30001816",
+    "repo": "browserslist/caniuse-lite",
+    "commit": "6301f4a091b7fe2ea8037c1aceb2b7239072b7d3",
+    "event": "workflow_run",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "chai",
+    "version": "6.3.0",
+    "repo": "chaijs/chai",
+    "commit": "d86de2a9519bdd0d89aa64c9fbcc0e880513b153",
+    "event": "release",
+    "workflowRef": "refs/tags/v6.3.0",
+    "workflowPath": ".github/workflows/npm-publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "chalk",
+    "version": "6.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "chrome-trace-event",
+    "version": "1.0.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ci-info",
+    "version": "4.4.0",
+    "repo": "watson/ci-info",
+    "commit": "c4e1d0565552fb20ea3c133db2e056a574e78e6b",
+    "event": "push",
+    "workflowRef": "refs/tags/v4.4.0",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "client-only",
+    "version": "0.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "combined-stream",
+    "version": "1.0.8",
+    "status": "no-provenance"
+  },
+  {
+    "name": "content-disposition",
+    "version": "3.0.0",
+    "repo": "jshttp/content-disposition",
+    "commit": "1a542fe19e982569c5fb0162b3a1997ad02da1fe",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.0.0",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "content-type",
+    "version": "3.1.1",
+    "repo": "jshttp/content-type",
+    "commit": "d005d8bfd9846bb9eb73a9aad0944536e1a5cf39",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.1.1",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "convert-source-map",
+    "version": "2.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "cookie",
+    "version": "2.0.1",
+    "repo": "jshttp/cookie",
+    "commit": "51c485421a95ee796de6d8dab53a5ade0a20db8a",
+    "event": "push",
+    "workflowRef": "refs/tags/v2.0.1",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "cookie-signature",
+    "version": "1.2.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "cross-spawn",
+    "version": "7.0.6",
+    "status": "no-provenance"
+  },
+  {
+    "name": "csstype",
+    "version": "3.2.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "debug",
+    "version": "4.4.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "deep-is",
+    "version": "0.1.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "depd",
+    "version": "2.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "detect-libc",
+    "version": "2.1.2",
+    "repo": "lovell/detect-libc",
+    "commit": "98928b7d26bd5c50dee12af0e433b47825d84df0",
+    "event": "push",
+    "workflowRef": "refs/tags/v2.1.2",
+    "workflowPath": ".github/workflows/ci.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "ee-first",
+    "version": "1.1.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "electron-to-chromium",
+    "version": "1.5.459",
+    "repo": "Kilian/electron-to-chromium",
+    "commit": "7fc7c5216f44ca661486f39893bb5a4f53115fca",
+    "event": "push",
+    "workflowRef": "refs/tags/v1.5.459",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "empathic",
+    "version": "2.1.0",
+    "repo": "lukeed/empathic",
+    "commit": "441cbd509109f08896a985e058d3111104fef7e8",
+    "event": "push",
+    "workflowRef": "refs/tags/v2.1.0",
+    "workflowPath": ".github/workflows/ci.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "encodeurl",
+    "version": "2.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "enhanced-resolve",
+    "version": "5.26.0",
+    "repo": "webpack/enhanced-resolve",
+    "commit": "c65e40ac1b77a58d1bcbc883953974236991a833",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "es-define-property",
+    "version": "1.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "es-module-lexer",
+    "version": "3.0.4",
+    "repo": "guybedford/es-module-lexer",
+    "commit": "1c17334d2c3bc0eed6a92022e16254a28bb9ebea",
+    "event": "push",
+    "workflowRef": "refs/tags/3.0.4",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "es-set-tostringtag",
+    "version": "2.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "esbuild",
+    "version": "0.28.2",
+    "repo": "evanw/esbuild",
+    "commit": "609683d892977362a0f99026cb74b96263d728a9",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "escape-html",
+    "version": "1.0.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "escape-string-regexp",
+    "version": "5.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "eslint",
+    "version": "10.13.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "eslint-scope",
+    "version": "9.1.2",
+    "repo": "eslint/js",
+    "commit": "a73b94be20835cd52379a43629fa2225e3f18763",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "eslint-visitor-keys",
+    "version": "5.0.1",
+    "repo": "eslint/js",
+    "commit": "a52a694e064952bd55cf6050049062464a0c1304",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "espree",
+    "version": "11.2.0",
+    "repo": "eslint/js",
+    "commit": "a73b94be20835cd52379a43629fa2225e3f18763",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "esquery",
+    "version": "1.7.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "esrecurse",
+    "version": "4.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "estraverse",
+    "version": "5.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "estree-walker",
+    "version": "3.0.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "esutils",
+    "version": "2.0.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "etag",
+    "version": "1.8.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "events",
+    "version": "3.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "exit-x",
+    "version": "0.2.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "expect-type",
+    "version": "1.4.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "express",
+    "version": "5.3.0",
+    "repo": "expressjs/express",
+    "commit": "cf6722bf89a86905281d9160b6482e08166b5ef0",
+    "event": "release",
+    "workflowRef": "refs/tags/v5.3.0",
+    "workflowPath": ".github/workflows/npm-publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": null,
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "fast-deep-equal",
+    "version": "3.1.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "fast-json-stable-stringify",
+    "version": "2.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "fast-levenshtein",
+    "version": "3.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "fast-uri",
+    "version": "4.2.2",
+    "repo": "fastify/fast-uri",
+    "commit": "25378a02c15cefe56935b91eae4a1bd7a6cb602c",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "indeterminate-reusable",
+    "status": "provenance"
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "file-entry-cache",
+    "version": "11.1.5",
+    "repo": "jaredwray/cacheable",
+    "commit": "caf0a600883d60591693ef840798762b2f62b726",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "finalhandler",
+    "version": "2.1.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "find-up",
+    "version": "8.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "flat-cache",
+    "version": "6.1.23",
+    "repo": "jaredwray/cacheable",
+    "commit": "caf0a600883d60591693ef840798762b2f62b726",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "flru",
+    "version": "1.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "follow-redirects",
+    "version": "1.16.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "form-data",
+    "version": "4.0.6",
+    "status": "no-provenance"
+  },
+  {
+    "name": "forwarded",
+    "version": "0.2.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "fresh",
+    "version": "0.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "gensync",
+    "version": "1.0.0-beta.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "glob-parent",
+    "version": "6.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "status": "no-provenance"
+  },
+  {
+    "name": "hasown",
+    "version": "2.0.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "http-errors",
+    "version": "2.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "https-proxy-agent",
+    "version": "9.1.0",
+    "repo": "TooTallNate/proxy-agents",
+    "commit": "b7e5f7ccce1a3ac5b339cc4c587974e8989cbc16",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "iconv-lite",
+    "version": "0.7.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ignore",
+    "version": "7.0.13",
+    "status": "no-provenance"
+  },
+  {
+    "name": "import-local",
+    "version": "3.2.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "import-meta-resolve",
+    "version": "4.2.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "imurmurhash",
+    "version": "0.1.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "inherits",
+    "version": "2.0.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ipaddr.js",
+    "version": "2.5.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "is-extglob",
+    "version": "2.1.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "is-glob",
+    "version": "4.0.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "is-promise",
+    "version": "4.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-changed-files",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-cli",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-config",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-haste-map",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-message-util",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-regex-util",
+    "version": "30.5.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-resolve",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-resolve-dependencies",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-runner",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-runtime",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-snapshot",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-util",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-validate",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-watcher",
+    "version": "30.5.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jest-worker",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "js-tokens",
+    "version": "10.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "jsesc",
+    "version": "3.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "json-schema-traverse",
+    "version": "1.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "json-stable-stringify-without-jsonify",
+    "version": "1.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "json5",
+    "version": "2.2.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "levn",
+    "version": "0.4.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "lightningcss",
+    "version": "1.33.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "locate-path",
+    "version": "8.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "magic-string",
+    "version": "1.4.3",
+    "repo": "Rich-Harris/magic-string",
+    "commit": "993d27d8aee16d2ca46646a5c3c0b290c8084323",
+    "event": "push",
+    "workflowRef": "refs/tags/v1.4.3",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-reusable",
+    "status": "provenance"
+  },
+  {
+    "name": "merge-descriptors",
+    "version": "2.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "mime-db",
+    "version": "1.54.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "mime-types",
+    "version": "3.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "minimatch",
+    "version": "10.2.6",
+    "status": "no-provenance"
+  },
+  {
+    "name": "minimizer-webpack-plugin",
+    "version": "5.13.1",
+    "repo": "webpack/minimizer-webpack-plugin",
+    "commit": "f039f93844af0811b7ebd4f04d7a287186a9cb90",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "ms",
+    "version": "2.1.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "nanoid",
+    "version": "6.0.2",
+    "repo": "ai/nanoid",
+    "commit": "3167e108865702c0539d8e552365ed840ac9d8d9",
+    "event": "push",
+    "workflowRef": "refs/tags/6.0.2",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "natural-compare",
+    "version": "1.4.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "negotiator",
+    "version": "1.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "next",
+    "version": "16.4.2",
+    "repo": "vercel/next.js",
+    "commit": "2864b1772c37242a9b40ab4d366eb7d368c2a070",
+    "event": "push",
+    "workflowRef": "refs/tags/v16.4.2",
+    "workflowPath": ".github/workflows/build_and_deploy.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "pnpm-install",
+    "status": "provenance"
+  },
+  {
+    "name": "node-releases",
+    "version": "2.0.59",
+    "repo": "chicoxyzzy/node-releases",
+    "commit": "3d467be294812f5257b2944fac6b70e56c83225d",
+    "event": "schedule",
+    "workflowRef": "refs/heads/master",
+    "workflowPath": ".github/workflows/nightly-sync.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "obug",
+    "version": "3.0.0",
+    "repo": "sxzz/obug",
+    "commit": "1be5243fa1d578ba5f6ea5ae307840b8b447bc2f",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.0.0",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-reusable",
+    "status": "provenance"
+  },
+  {
+    "name": "on-finished",
+    "version": "2.4.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "once",
+    "version": "1.4.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "optionator",
+    "version": "0.9.4",
+    "status": "no-provenance"
+  },
+  {
+    "name": "parseurl",
+    "version": "1.3.3",
+    "status": "no-provenance"
+  },
+  {
+    "name": "path-key",
+    "version": "4.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "path-to-regexp",
+    "version": "8.4.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "status": "no-provenance"
+  },
+  {
+    "name": "pkg-dir",
+    "version": "9.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "playwright",
+    "version": "1.64.1",
+    "repo": "microsoft/playwright",
+    "commit": "cfe490d941f992655948eee8fd4fd94e1c4234bf",
+    "event": "release",
+    "workflowRef": "refs/tags/v1.64.1",
+    "workflowPath": ".github/workflows/publish_release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "playwright-core",
+    "version": "1.64.1",
+    "repo": "microsoft/playwright",
+    "commit": "cfe490d941f992655948eee8fd4fd94e1c4234bf",
+    "event": "release",
+    "workflowRef": "refs/tags/v1.64.1",
+    "workflowPath": ".github/workflows/publish_release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "postcss",
+    "version": "8.5.31",
+    "repo": "postcss/postcss",
+    "commit": "d1908579d6af4155ee5f759030184fb4c2b575ec",
+    "event": "push",
+    "workflowRef": "refs/tags/8.5.31",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "prelude-ls",
+    "version": "1.2.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "prettier",
+    "version": "3.9.10",
+    "status": "no-provenance"
+  },
+  {
+    "name": "pretty-format",
+    "version": "30.5.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "proxy-addr",
+    "version": "2.0.8",
+    "repo": "jshttp/proxy-addr",
+    "commit": "a11ad82545698af5c33e59f3ed0b52eab79bf610",
+    "event": "release",
+    "workflowRef": "refs/tags/v2.0.8",
+    "workflowPath": ".github/workflows/npm-publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": null,
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "proxy-agent-negotiate",
+    "version": "1.1.0",
+    "repo": "TooTallNate/proxy-agents",
+    "commit": "b7e5f7ccce1a3ac5b339cc4c587974e8989cbc16",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "proxy-from-env",
+    "version": "2.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "qs",
+    "version": "6.16.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "range-parser",
+    "version": "1.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "raw-body",
+    "version": "4.0.0",
+    "repo": "stream-utils/raw-body",
+    "commit": "c3949f885af40733c680eb410b7d1f5aeddc2877",
+    "event": "push",
+    "workflowRef": "refs/tags/v4.0.0",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "repo": "react/react",
+    "commit": "61aa00df822d0eb76d0362eb8b6fdd3527693efe",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/releases/19.3.x",
+    "workflowPath": ".github/workflows/runtime_release_from_ci.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "require-from-string",
+    "version": "2.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "resolve-cwd",
+    "version": "3.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "rolldown",
+    "version": "1.2.14",
+    "repo": "rolldown/rolldown",
+    "commit": "c9a8cda42bc0fdd84c7b4b4e6d7f95ae83e8b5f7",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish-to-npm.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "pnpm-install",
+    "status": "provenance"
+  },
+  {
+    "name": "rollup",
+    "version": "4.64.10",
+    "repo": "rollup/rollup",
+    "commit": "4ddbff578063396837db4e9901f77a70a6c526e6",
+    "event": "push",
+    "workflowRef": "refs/tags/v4.64.10",
+    "workflowPath": ".github/workflows/build-and-tests.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "router",
+    "version": "2.2.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "rxjs",
+    "version": "7.8.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "schema-utils",
+    "version": "4.8.1",
+    "repo": "webpack/schema-utils",
+    "commit": "17b56969523c0bf41e939260358f4998e6ab14c0",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "semver",
+    "version": "7.8.5",
+    "repo": "npm/node-semver",
+    "commit": "6e05b7637396ac66522cff8731f07cfe0ef49a29",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "send",
+    "version": "1.2.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "serve-static",
+    "version": "2.2.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "setprototypeof",
+    "version": "1.2.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "shebang-command",
+    "version": "2.0.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "side-channel",
+    "version": "1.1.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "slash",
+    "version": "5.1.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "statuses",
+    "version": "2.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "std-env",
+    "version": "4.3.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "styled-jsx",
+    "version": "5.1.7",
+    "status": "no-provenance"
+  },
+  {
+    "name": "tailwindcss",
+    "version": "4.3.3",
+    "repo": "tailwindlabs/tailwindcss",
+    "commit": "c2b24dd15fed1c59dd521bd86082f520c9f5ad0d",
+    "event": "release",
+    "workflowRef": "refs/tags/v4.3.3",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "tapable",
+    "version": "2.3.3",
+    "repo": "webpack/tapable",
+    "commit": "429601243bca39b4678c1dd4d2d6a84005977b2e",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "terser",
+    "version": "5.51.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "tinybench",
+    "version": "6.2.2",
+    "repo": "tinylibs/tinybench",
+    "commit": "fb4fd796b9072d80e3ec3064b1dd7ebf1e1a070c",
+    "event": "push",
+    "workflowRef": "refs/tags/v6.2.2",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "tinyexec",
+    "version": "1.3.1",
+    "repo": "tinylibs/tinyexec",
+    "commit": "57073a32480379dfe3cb50e4ea589e6f714f0eeb",
+    "event": "release",
+    "workflowRef": "refs/tags/1.3.1",
+    "workflowPath": ".github/workflows/npm-publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "repo": "SuperchupuDev/tinyglobby",
+    "commit": "f80cb8448dc5058f38bc25642375c1934112c7ba",
+    "event": "release",
+    "workflowRef": "refs/tags/0.2.17",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "toidentifier",
+    "version": "1.0.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "ts-api-utils",
+    "version": "2.5.0",
+    "repo": "JoshuaKGoldberg/ts-api-utils",
+    "commit": "157a18693cbbc54d72dbd61776a6665c04fb8712",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "tslib",
+    "version": "2.8.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "type-check",
+    "version": "0.4.0",
+    "status": "no-provenance"
+  },
+  {
+    "name": "type-is",
+    "version": "3.0.0",
+    "repo": "jshttp/type-is",
+    "commit": "f61fd0318c775d8e4a9590143eb92487c23afe58",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.0.0",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "typescript",
+    "version": "7.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "unicorn-magic",
+    "version": "0.4.1",
+    "status": "no-provenance"
+  },
+  {
+    "name": "update-browserslist-db",
+    "version": "1.3.4",
+    "repo": "browserslist/update-db",
+    "commit": "3c3c543d2da5353271287d0a0f88d74cc8ff763b",
+    "event": "push",
+    "workflowRef": "refs/tags/1.3.4",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "vary",
+    "version": "1.1.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "verkit",
+    "version": "0.5.0",
+    "repo": "sxzz/verkit",
+    "commit": "0b05f3f7215bed05bbca6a6a3cb1dbb6c27e7f36",
+    "event": "push",
+    "workflowRef": "refs/tags/v0.5.0",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-reusable",
+    "status": "provenance"
+  },
+  {
+    "name": "vite",
+    "version": "8.3.4",
+    "repo": "vitejs/vite",
+    "commit": "b6c20f6a8126d8561891e5fb9368e8fc9da37538",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "vitest",
+    "version": "5.0.5",
+    "repo": "vitest-dev/vitest",
+    "commit": "7a825db43e2beca0b219d2eadaec334cb81af0c7",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "vue",
+    "version": "3.5.44",
+    "repo": "vuejs/core",
+    "commit": "bf5f0dd877dd3c23ce85c2cbc1dd771567e84c8c",
+    "event": "push",
+    "workflowRef": "refs/tags/v3.5.44",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "watchpack",
+    "version": "2.6.3",
+    "repo": "webpack/watchpack",
+    "commit": "f70878275d1fe34339414149baa0e5ef2b84dd0f",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "webpack",
+    "version": "5.112.0",
+    "repo": "webpack/webpack",
+    "commit": "755c49ee70633cb17d98aedb801e8bf44a1fada2",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "yarn.lock",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "webpack-sources",
+    "version": "3.6.0",
+    "repo": "webpack/webpack-sources",
+    "commit": "50fc1db79b31694c68d386a8126ff5bfdc80faea",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "which",
+    "version": "7.0.0",
+    "repo": "npm/node-which",
+    "commit": "297db11d58eebe01551ae0875a127a89ee63d2cb",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": null,
+    "install": "npm-install-unpinned",
+    "status": "provenance"
+  },
+  {
+    "name": "why-is-node-running",
+    "version": "3.2.3",
+    "repo": "mafintosh/why-is-node-running",
+    "commit": "7e76fc62e8f419abcd00a5525af2869a239e04bf",
+    "event": "release",
+    "workflowRef": "refs/tags/v3.2.3",
+    "workflowPath": ".github/workflows/publish.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": false,
+    "lock": null,
+    "install": "indeterminate-script",
+    "status": "provenance"
+  },
+  {
+    "name": "word-wrap",
+    "version": "1.2.5",
+    "status": "no-provenance"
+  },
+  {
+    "name": "wrappy",
+    "version": "1.0.2",
+    "status": "no-provenance"
+  },
+  {
+    "name": "yargs",
+    "version": "18.2.0",
+    "repo": "yargs/yargs",
+    "commit": "e49b60aa1ab2bfe061a9ecd5d61f4c5130fe3e14",
+    "event": "push",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release-please.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "package-lock.json",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  },
+  {
+    "name": "zod",
+    "version": "4.6.7",
+    "repo": "colinhacks/zod",
+    "commit": "b500a2ee95134f81d74da7911d7378dd2853d042",
+    "event": "workflow_dispatch",
+    "workflowRef": "refs/heads/main",
+    "workflowPath": ".github/workflows/release.yml",
+    "sourcePinnable": true,
+    "subjectMatch": true,
+    "depCount": 1,
+    "depSetRecorded": false,
+    "branchHazard": true,
+    "lock": "pnpm-lock.yaml",
+    "install": "frozen-explicit",
+    "status": "provenance"
+  }
+]

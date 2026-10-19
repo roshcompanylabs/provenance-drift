@@ -389,6 +389,55 @@ without an inspectable payload, so the commit is the run's, not the statement's.
 How many of the 196 are this rather than the ordinary kind is not a question the registry can
 answer. It would mean reading the transparency log instead, which is a different measurement.
 
+## Could you rebuild it? The bundle says where to look, not what to install
+
+The measurement above asks whether the attested commit's tree *holds* the version. The next
+question down is whether you could *reproduce the tarball* from that commit — and the
+attestation answers half of it and is silent on the half that decides a rebuild. `eligible.cjs`
+reads the same frame and writes the same way. For the 106 packages whose `latest` carried a
+readable SLSA attestation on 2026-10-19:
+
+```
+  decidable from the bundle (a funnel):
+    source pinnable (gitCommit)         106 / 106
+    artifact identified (subject==int)  106 / 106
+    dependency set recorded in bundle     0 / 106   <- the wall
+
+  committed lock at the attested commit  86 / 106   (the ceiling, outside the bundle)
+    no committed lock                    20 / 106
+```
+
+The commit is always there to check out, and `subject[0].digest.sha512` decodes to exactly the
+`dist.integrity` you would diff against — both 106 of 106. But `resolvedDependencies` holds
+**only that commit, for every one of the 106**: the dependency tree the build resolved is never
+an attested input. So two runs of the same commit can install different trees, and nothing in
+the bundle tells them apart. **From the attestation alone, "re-derive it" is decidable for none
+of them** — not because the source is wrong, but because the resolve is not in it.
+
+What you can recover is bounded by what the repo committed: a lockfile at the attested commit,
+present for 86 and absent for 20. That is a ceiling, not a count — a committed lock makes a
+deterministic resolve *possible*, not *done*. Whether each build actually installs frozen is the
+next question, and not one a grep over a single workflow answers honestly: 20 of the 106 publish
+through a package script (`pnpm run ci-publish`) and 4 through a reusable workflow, where the
+install is somewhere this does not read. So the install column is reported, not counted — 48 run
+an explicit frozen install (`npm ci` / `--frozen-lockfile` / `--immutable`), and global tool
+installs (`npm i -g pnpm`) are stripped per command fragment so they are not mistaken for one.
+
+(And 64 of the 106 name a branch, not a tag, in `workflow.ref` and `resolvedDependencies[0].uri`
+— a rebuild that reads either instead of `gitCommit` checks out today's head and records a clean
+false negative. A hazard, not a disqualifier, because `gitCommit` is always there; reported for
+the same reason the install column is.)
+
+Which is why *Reproducibility is Not Enough* holds one level up: recovering the source commit is
+the dominant obstacle, and here the commit is the one thing the bundle gets right. What it leaves
+is the resolve, and the attestation was never where that lived.
+
+```bash
+node eligible.cjs --report                      # re-print the recorded table, no network
+rm -rf cache/
+node eligible.cjs --out=eligibility-<today>.json
+```
+
 ## Prior art
 
 The mechanism was already understood, and the oldest record of it is in the build type's own
